@@ -9,7 +9,7 @@
     justify-content: center;
     background-attachment: fixed;
     background-size: 100%;
-
+    background-color: cornsilk;
     background-image: url("https://media.istockphoto.com/photos/vegan-protein-sources-picture-id909947146?s=612x612")
 }
 
@@ -20,18 +20,36 @@
     width: 300px;
     border-radius: 10px;
     border: 5px solid rgb(230, 210, 210);
-    background-color: rgb(225, 238, 167);
+    background-color: rgb(221, 151, 216);
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    transition: width 2s, height 2s, transform 2s;
+    transition: width 1s, height 1s, transform 1s;
 
 }
 
 .card:hover {
-    /* /* /* -webkit-transform: scale(1.3); */
-    -ms-transform: scale(1.9); 
-    transform: scale(1.1); 
-    width: 350px;
+  
+    transform: scale(1.05); 
+    width: 300px;
 
+}
+
+
+.order{
+      text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(143, 126, 118);
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    width: 70%;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(33, 33, 49, 0.3) 0px 2px 8px 0px;
+}
+
+.order:hover{
+    color: rgb(19, 18, 18);
+    background-color: rgb(226, 216, 212);
 }
 
 .img {

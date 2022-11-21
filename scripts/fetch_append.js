@@ -61,7 +61,18 @@ let displayData = (data, container) => {
         category.innerText = strCategory;
         category.setAttribute("class", "category");
 
-        card.append(img, title, category);
+        let orderdiv = document.createElement("div");
+        orderdiv.setAttribute("class", "orderdiv");
+
+        // let price = document.createElement("div");
+        // price.setAttribute("class", "price");
+        // price.innerText=Math.round(Math.random(5)*88+200);
+        let order = document.createElement("div");
+        order.innerText="Details"
+        order.setAttribute("class", "order");
+        orderdiv.append(order);
+
+        card.append(img, title, category,orderdiv);
 
         container.append(card)
 

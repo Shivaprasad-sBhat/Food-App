@@ -25,9 +25,9 @@
 #form>button{
   
     text-align: center;
-    color: rgb(160, 155, 155);
-    border: 1px solid rgb(160, 137, 137);
-    background-color: rgb(236, 238, 231);
+    color: rgb(255, 255, 255);
+    border-color:  rgb(223, 141, 103);
+    background-color: rgb(223, 141, 103);
     font-size: 20px;
     font-weight: bold;
     width: 70%;
@@ -35,6 +35,11 @@
     border-radius: 7px;
     box-shadow: rgba(33, 33, 49, 0.3) 0px 2px 8px 0px;
 
+}
+
+#form>button:hover{
+    color: rgb(14, 13, 13);
+    background-color: rgb(140, 207, 228);
 }
 #signin{
     margin-bottom: 50px;
